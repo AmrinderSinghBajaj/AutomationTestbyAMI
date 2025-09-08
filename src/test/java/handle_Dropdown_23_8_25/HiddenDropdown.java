@@ -40,10 +40,9 @@ public class HiddenDropdown
 		List<WebElement> alloptions=driver.findElements(By.xpath("//div[@role='listbox']//span"));
 		
 		System.out.println("this is the total number of options:" + alloptions.size());
-		
-		
-		
-		
+
+		driver.quit();
+	
 		
 
 	}
